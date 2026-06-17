@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-site</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Helvetica Neue", "Segoe UI", sans-serif;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0e0e10;
+      color: #f4f4f5;
+      text-align: center;
+      padding: 24px;
+    }
+    .card { max-width: 520px; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); letter-spacing: -0.02em; }
+    p { margin-top: 16px; color: #a1a1aa; font-size: 1.1rem; line-height: 1.6; }
+    .dot {
+      display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+      background: #22c55e; margin-right: 8px; vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>👋 สวัสดี</h1>
+    <p><span class="dot"></span>เว็บไซต์นี้ deploy ขึ้น GitHub Pages เรียบร้อยแล้ว<br />เริ่มแก้ไขไฟล์ <code>index.html</code> ได้เลย</p>
+  </main>
+</body>
+</html>
